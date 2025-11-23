@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1763827935 source:d:\fit@hcmus 2025-2029\cs160\25125040_w06_03\p423\w06_homework\date.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"Date.h"
+
+1763827988 d:\fit@hcmus 2025-2029\cs160\25125040_w06_03\p423\w06_homework\date.h
+
+1763891074 source:d:\fit@hcmus 2025-2029\cs160\25125040_w06_03\p423\w06_homework\main.cpp
+	<iostream>
+	<fstream>
+	"Course.h"
+
+1763890372 source:d:\fit@hcmus 2025-2029\cs160\25125040_w06_03\p423\w06_homework\student.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<string.h>
+	"Student.h"
+
+1763828160 d:\fit@hcmus 2025-2029\cs160\25125040_w06_03\p423\w06_homework\student.h
+	"Date.h"
+
+1763892218 source:d:\fit@hcmus 2025-2029\cs160\25125040_w06_03\p423\w06_homework\course.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<chrono>
+	<string.h>
+	"Course.h"
+
+1763828409 d:\fit@hcmus 2025-2029\cs160\25125040_w06_03\p423\w06_homework\course.h
+	"Student.h"
+
+1763826811 d:\fit@hcmus 2025-2029\cs160\25125040_w06_03\p423\w06_homework\student.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<string.h>
+	"Student.h"
+

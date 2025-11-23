@@ -1,0 +1,32 @@
+class Solution {
+public:
+    bool isNumber(string s) {
+        if (s.empty()) return false;
+        bool Num = false, dot = false, E = false;
+        for (int i = 0; s[i] != '\0'; ++i)
+        {
+            switch(s[i])
+            {
+                case '.':
+                    if (dot || E) return false; //Found '.' twice or after the E notation
+                    dot = true;
+                    break;
+                case 'e': // Continue to the next case ('E')
+                case 'E':
+                    if (E || !Num) return false; //Found E twice or before every number
+                    E = true;
+                    Num = false; //Need to find the number after the E notation
+                    break;
+                case '+': // Continue to the next case ('+')
+                case '-':
+                    if (i && s[i - 1] != 'e' && s[i - 1] != 'E') return false; // Found not at the first position or not after the E notation
+                    Num = false;
+                    break;
+                default:
+                    if (!isdigit(s[i])) return false;
+                    Num = true;
+            }
+        }
+        return Num;
+    }
+};

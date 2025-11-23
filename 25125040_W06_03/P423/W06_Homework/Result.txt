@@ -1,0 +1,18 @@
+Course: CS160 - Introduction to Computer Science 
+Status: Close
+Students list:
+Id: 25125041
+Full name:     Dang Le
+GPA: 10.00
+Address:     11 Nguyen Van Cu
+DOB: 23/11/2007
+Id: 25125040
+Full name:     Dang Le Hong
+GPA: 8.00
+Address:     15 Truong Son
+DOB: 13/11/2007
+Id: 25125007
+Full name:     Hieu Nguyen Minh
+GPA: 2.20
+Address:     123 Nguyen Bieu
+DOB: 1/2/2007
